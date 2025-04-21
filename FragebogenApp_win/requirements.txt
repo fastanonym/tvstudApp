@@ -1,8 +1,0 @@
-# requirements.txt for FragebogenApp
-
-# For quick setup (recommended): No requirements.
-
-# For manual installation, Python is required. 
-# Ensure Python is installed on your system.
-
-# No additional Python packages are required for this app.
