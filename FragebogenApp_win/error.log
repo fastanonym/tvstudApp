@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\s-ko\Desktop\FragebogenApp_win\src\fragebogen.py", line 220, in <module>
+    Speicherpfad_entry.pack(pady=(5, 20))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\s-ko\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2596, in pack_configure
+    self.tk.call(
+    ~~~~~~~~~~~~^
+          ('pack', 'configure', self._w)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          + self._options(cnf, kw))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: cannot use geometry manager pack inside .!frame which already has slaves managed by grid
