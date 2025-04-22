@@ -1,0 +1,8 @@
+pyinstaller 
+  --windowed 
+  --name TVStudApp 
+  --icon imgtvstud.ico 
+  --add-data fragebogen.py. 
+  --add-data imgtvstud.icoimg 
+  --hidden-import tkinterdnd2 
+  fragebogen.py
